@@ -1,0 +1,13 @@
+footer {
+	font-weight: 300;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1rem;
+	background: #be3144;
+	height: 80px;
+	margin-top: auto;
+}
+
+footer > p {
+	margin: 2rem;
+}

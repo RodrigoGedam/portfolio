@@ -1,0 +1,20 @@
+[
+	{
+		"projectLink": "https://cardapio-restaurante-git-master-rodrigogedam.vercel.app/",
+		"projectGit": "https://github.com/RodrigoGedam/cardapio-restaurante",
+		"image": "/imagens/projetos/cardapio-restaurante.png",
+		"title": "Cardápio de restaurante"
+	},
+	{
+		"projectLink": "https://github.com/RodrigoGedam/restaurante-admin",
+		"projectGit": "https://github.com/RodrigoGedam/restaurante-admin",
+		"image": "/imagens/wip.png",
+		"title": "Restaurante ADMIN"
+	},
+	{
+		"projectLink": "google.com",
+		"projectGit": "google.com",
+		"image": "/imagens/wip.png",
+		"title": "Nome do projeto 3"
+	}
+]

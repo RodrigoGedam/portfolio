@@ -1,0 +1,22 @@
+.cabecalho {
+	background-color: #be3144;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5em;
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	min-height: 50px;
+}
+
+.link {
+	color: whitesmoke;
+	font-size: 1.3em;
+	font-weight: 400;
+	text-decoration: none;
+}
+.link:hover {
+	color: black;
+}

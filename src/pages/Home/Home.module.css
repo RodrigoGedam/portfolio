@@ -1,0 +1,22 @@
+.aboutMe {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #000;
+	background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+	min-height: calc(100vh - 80px);
+}
+
+.aboutMe > h1 {
+	font-size: 6rem;
+	text-align: center;
+	color: white;
+}
+
+.aboutMe > p {
+	font-size: 3rem;
+	font-style: italic;
+	color: #be3144;
+}

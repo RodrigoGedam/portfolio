@@ -1,0 +1,24 @@
+.project {
+	background: #564e4e;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	border-radius: 2px;
+}
+
+.projectImage {
+	height: calc(100% - 4.8rem);
+	width: 100%;
+	object-fit: cover;
+	padding-bottom: 2rem;
+}
+
+.projectLink {
+	font-size: 2rem;
+	color: whitesmoke;
+	text-decoration: none;
+	margin: 1em;
+	cursor: pointer;
+}
+.projectLink:hover {
+	color: grey;
+	cursor: pointer;
+}

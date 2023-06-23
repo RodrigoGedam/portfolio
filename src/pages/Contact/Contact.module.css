@@ -1,0 +1,46 @@
+.contactSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	padding: 0 2rem;
+	background: linear-gradient(62deg, #181719 0%, #3a3d40 100%);
+	min-height: calc(100vh - 80px);
+}
+
+.contactSectionHeader > h2 {
+	font-size: 6rem;
+}
+
+.contactSectionHeader > p {
+	font-style: italic;
+}
+
+.contactLinks {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 980px;
+	margin-top: 4rem;
+	flex-wrap: wrap;
+}
+
+.contactLinks a {
+	color: whitesmoke;
+}
+
+.contactDetails {
+	font-size: 2.4rem;
+	text-shadow: 2px 2px 1px #1f1f1f;
+	transition: transform 0.3s ease-out;
+}
+
+.contactDetails:hover {
+	transform: translateY(8px);
+}
+
+.contactEmail {
+	cursor: default;
+}
