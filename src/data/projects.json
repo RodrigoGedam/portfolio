@@ -1,7 +1,7 @@
 [
 	{
-		"projectLink": "https://cardapio-restaurante-git-master-rodrigogedam.vercel.app/",
-		"projectGit": "https://github.com/RodrigoGedam/cardapio-restaurante",
+		"projectLink": "https://restaurante-cardapio-rodrigogedam.vercel.app/",
+		"projectGit": "https://github.com/RodrigoGedam/restaurante-cardapio",
 		"image": "/imagens/projetos/cardapio-restaurante.png",
 		"title": "Cardápio de restaurante"
 	},
@@ -12,9 +12,9 @@
 		"title": "Restaurante ADMIN"
 	},
 	{
-		"projectLink": "google.com",
-		"projectGit": "google.com",
-		"image": "/imagens/wip.png",
-		"title": "Nome do projeto 3"
+		"projectLink": "https://tic-tac-toe-rodrigogedam.vercel.app/",
+		"projectGit": "https://github.com/RodrigoGedam/tic-tac-toe",
+		"image": "/imagens/projetos/jogo-da-velha.png",
+		"title": "Jogo da Velha"
 	}
 ]
