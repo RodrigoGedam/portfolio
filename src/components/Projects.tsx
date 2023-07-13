@@ -6,7 +6,7 @@ export default function Projects() {
 			title: 'Previsão',
 			description:
 				'Projeto de previsão de tempo utilizando a API OpenWeather. Nesse projeto foi usado React, Typescript e Tailwind.',
-			image: '../../public/images/weather-forecast.png',
+			image: '/images/weather-forecast.png',
 			linkDeploy: 'https://weather-forecast-rodrigogedam.vercel.app/',
 			linkGit: 'https://github.com/RodrigoGedam/weather-forecast',
 			colSpan: 'col-span-1',
@@ -14,7 +14,7 @@ export default function Projects() {
 		{
 			title: 'Jogo da Velha',
 			description: 'Projeto de Jogo da Velho usando React e JavaScript.',
-			image: '../../public/images/jogo-da-velha.png',
+			image: '/images/jogo-da-velha.png',
 			linkDeploy: 'https://tic-tac-toe-rodrigogedam.vercel.app/',
 			linkGit: 'https://github.com/RodrigoGedam/tic-tac-toe',
 			colSpan: 'col-span-1 md:col-span-2',
@@ -23,7 +23,7 @@ export default function Projects() {
 			title: 'Cardapio',
 			description:
 				'Projeto de um cardápio de restaurante utilizando React, Typescript e Sass',
-			image: '../../public/images/cardapio-restaurante.png',
+			image: '/images/cardapio-restaurante.png',
 			linkDeploy: 'https://restaurante-cardapio-rodrigogedam.vercel.app/',
 			linkGit: 'https://github.com/RodrigoGedam/restaurante-cardapio',
 			colSpan: 'col-span-1',

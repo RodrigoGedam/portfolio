@@ -27,7 +27,7 @@ export default function Hero() {
 
 					<div className="flex items-center justify-center md:justify-start gap-2">
 						<a
-							href="#"
+							href="https://docs.google.com/document/d/1If48B5Yd70_3liZgHpLGPJyaFFAzzy6HQ-VUv47O9Zs/edit?usp=sharing"
 							target="_blank"
 							className="button text-gray-600 hover:text-gray-900 flex items-center gap-2">
 							<HiDownload />

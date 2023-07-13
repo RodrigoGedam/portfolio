@@ -52,7 +52,7 @@ export default function Navbar() {
 											duration={500}
 											className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
 											<span className="text-lg text-branco hover:text-white">
-												About
+												Sobre Mim
 											</span>
 										</Link>
 									</li>
