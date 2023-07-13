@@ -32,13 +32,27 @@ export default function About() {
 									<td className="font-headline font-bold uppercase text-gray-500">
 										Github:
 									</td>
-									<td>Link do Github</td>
+									<td>
+										<a
+											className="hover:underline"
+											href="https://github.com/RodrigoGedam"
+											target="_blank">
+											/RodrigoGedam
+										</a>
+									</td>
 								</tr>
 								<tr>
 									<td className="font-headline font-bold uppercase text-blue-400">
 										Linkedin:
 									</td>
-									<td>Link do Linkedin</td>
+									<td>
+										<a
+											className="hover:underline"
+											href="https://www.linkedin.com/in/rodrigogedam/"
+											target="_blank">
+											/in/rodrigogedam
+										</a>
+									</td>
 								</tr>
 								<tr>
 									<td className="font-headline font-bold uppercase text-black">

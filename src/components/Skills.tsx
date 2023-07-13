@@ -1,29 +1,44 @@
+import { BsGit } from 'react-icons/bs';
+import { FaReact } from 'react-icons/fa';
 import { HiCode } from 'react-icons/hi';
+import { ImHtmlFive } from 'react-icons/im';
+import { SiJavascript, SiTypescript } from 'react-icons/si';
+import { TbBrandPython } from 'react-icons/tb';
 
 export default function Skills() {
 	const hardSkills = [
 		{
 			name: 'HTML5/CSS3',
-			icon: 'images/html.svg',
+			icon: <ImHtmlFive className="h-8 w-8 text-orange-600" />,
 			level: 90,
 		},
 		{
 			name: 'JavaScript',
-			icon: 'images/js.svg',
+			icon: <SiJavascript className="h-8 w-8 text-yellow-400" />,
 			level: 90,
+		},
+		{
+			name: 'React.js',
+			icon: <FaReact className="h-8 w-8 text-blue-800" />,
+			level: 80,
 		},
 	];
 
 	const softSkills = [
 		{
-			name: 'React.js',
-			icon: 'images/react.svg',
-			level: 75,
+			name: 'Git/Github',
+			icon: <BsGit className="h-8 w-8" />,
+			level: 70,
 		},
 		{
-			name: 'Git/Github',
-			icon: 'images/git.svg',
-			level: 75,
+			name: 'Typescript',
+			icon: <SiTypescript className="h-8 w-8 text-blue-600" />,
+			level: 50,
+		},
+		{
+			name: 'Python',
+			icon: <TbBrandPython className="h-8 w-8" />,
+			level: 15,
 		},
 	];
 
@@ -51,11 +66,7 @@ export default function Skills() {
 									key={`skill-${index}`}
 									className="flex flex-row items-center gap-2 md:flex-col md:items-start">
 									<div className="flex h-14 w-14 items-center justify-center rounded-lg bg-branco p-2">
-										<img
-											src={skill.icon}
-											alt={skill.name}
-											className="h-10 w-10 rounded"
-										/>
+										{skill.icon}
 									</div>
 									<div className="w-full flex-grow">
 										<h4 className="font-headline text-gray-900">
@@ -83,11 +94,7 @@ export default function Skills() {
 									key={`skill-${index}`}
 									className="flex flex-row items-center gap-2 md:flex-col md:items-start">
 									<div className="flex h-14 w-14 items-center justify-center rounded-lg bg-branco p-2">
-										<img
-											src={skill.icon}
-											alt={skill.name}
-											className="h-10 w-10 rounded"
-										/>
+										{skill.icon}
 									</div>
 									<div className="w-full flex-grow">
 										<h4 className="font-headline text-gray-900">
@@ -106,10 +113,14 @@ export default function Skills() {
 				</div>
 				<div className="relative mt-4 p-4 text-center">
 					<h4 className="relative z-40 mb-2 font-bold">
-						<span className="mr-2 font-headline text-3xl text-gray-800">Learning</span>
+						<span className="mr-2 font-headline text-2xl text-gray-800">
+							Aprendendo e
+						</span>
+						<span className="font-handwriting text-3xl text-gray-800">Aprimorando</span>
 					</h4>
 					<p className="relative text-xl text-gray-800">
-						Front-End Developer | React.js | Typescript | JavaScript | Git
+						Atualmente estou aprimorando minhas habilidades em React.Js, Typescript e
+						começando a aprender a desenvolver em Next.JS
 					</p>
 				</div>
 			</div>
