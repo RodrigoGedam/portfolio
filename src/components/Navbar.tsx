@@ -6,7 +6,7 @@ export default function Navbar() {
 	const [menuHidden, setMenuHidden] = useState(true);
 
 	const isHidden = () => {
-		return setMenuHidden(!menuHidden);
+		setMenuHidden(!menuHidden);
 	};
 
 	return (
@@ -51,9 +51,7 @@ export default function Navbar() {
 											offset={-100}
 											duration={500}
 											className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
-											<span className="text-lg text-branco hover:text-white">
-												Sobre Mim
-											</span>
+											<span className="text-lg text-branco hover:text-white">Sobre Mim</span>
 										</Link>
 									</li>
 									<li className="rounded-lg cursor-pointer hover:bg-gray-700">
@@ -65,9 +63,7 @@ export default function Navbar() {
 											offset={-80}
 											duration={500}
 											className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
-											<span className="text-lg text-branco hover:text-white">
-												Skills
-											</span>
+											<span className="text-lg text-branco hover:text-white">Skills</span>
 										</Link>
 									</li>
 									<li className="rounded-lg cursor-pointer hover:bg-gray-700">
@@ -79,9 +75,7 @@ export default function Navbar() {
 											offset={-80}
 											duration={500}
 											className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
-											<span className="text-lg text-branco hover:text-white">
-												Projetos
-											</span>
+											<span className="text-lg text-branco hover:text-white">Projetos</span>
 										</Link>
 									</li>
 									<li className="rounded-lg cursor-pointer hover:bg-gray-700">
@@ -93,9 +87,7 @@ export default function Navbar() {
 											offset={-100}
 											duration={500}
 											className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
-											<span className="text-lg text-branco hover:text-white">
-												Cursos
-											</span>
+											<span className="text-lg text-branco hover:text-white">Cursos</span>
 										</Link>
 									</li>
 									<li className="rounded-lg cursor-pointer hover:bg-gray-700">
@@ -107,9 +99,7 @@ export default function Navbar() {
 											offset={-100}
 											duration={500}
 											className="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
-											<span className="text-lg text-branco hover:text-white">
-												Contato
-											</span>
+											<span className="text-lg text-branco hover:text-white">Contato</span>
 										</Link>
 									</li>
 								</ul>

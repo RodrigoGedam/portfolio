@@ -1,0 +1,41 @@
+[
+	{
+		"title": "Previsão",
+		"description": {
+			"home": "Projeto de previsão de tempo utilizando a API OpenWeather, React, Typescript e Tailwind.",
+			"modal": "Esse projeto foi feito usando as tecnologias React e Typescript, Tailwind para estilização, e a API OpenWeather para podermos obter os dados da previsão.",
+			"warning": "teste"
+		},
+		"image": "/images/weather-forecast.png",
+		"link": {
+			"deploy": "https://weather-forecast-rodrigogedam.vercel.app/",
+			"git": "https://github.com/RodrigoGedam/weather-forecast"
+		}
+	},
+	{
+		"title": "Jogo da Velha",
+		"description": {
+			"home": "Projeto de Jogo da Velho utilizando React e JavaScript.",
+			"modal": "aqui vai a descrição do modal",
+			"warning": "x"
+		},
+		"image": "/images/jogo-da-velha.png",
+		"link": {
+			"deploy": "https://tic-tac-toe-rodrigogedam.vercel.app/",
+			"git": "https://github.com/RodrigoGedam/tic-tac-toe"
+		}
+	},
+	{
+		"title": "Cardápio",
+		"description": {
+			"home": "Projeto de um cardápio de restaurante utilizando React, Typescript e Sass",
+			"modal": "aqui vai a descrição do modal",
+			"warning": "x"
+		},
+		"image": "/images/cardapio-restaurante.png",
+		"link": {
+			"deploy": "https://restaurante-cardapio-rodrigogedam.vercel.app/",
+			"git": "https://github.com/RodrigoGedam/restaurante-cardapio"
+		}
+	}
+]
