@@ -19,7 +19,7 @@ export default function Projects() {
 					</div>
 					<div className="mt-6 flex flex-wrap justify-evenly gap-10">
 						{projects.map((project, index) => (
-							<div>
+							<div key={`projeto-${index}`}>
 								<div className="bg-tertiary rounded-2xl sm:w-[360px] w-full">
 									<div key={`project-${index}`} className="relative w-full h-[230px]">
 										<img src={project.image} alt="project image" className="w-full h-full object-cover rounded-2xl" />

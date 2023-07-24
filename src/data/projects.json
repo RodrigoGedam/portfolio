@@ -1,10 +1,23 @@
 [
 	{
+		"title": "Car Showcase",
+		"description": {
+			"home": "Projeto de uma página para aluguel de carros usando NextJs, Typescript e Tailwind.",
+			"modal": "Esse projeto foi meu primeiro projeto usando NextJs. É uma página de aluguel de carros onde você pode pesquisar alguma marca disponível, pesquisar o nome do carro, filtrar e clicar no carro para mais opções. Foi usado nesse projeto Typescript e Tailwind. A API usada foi da Cars by API-Ninjas no site Rapid API.",
+			"warning": "Esse projeto foi feito com uma API para as imagens dos carros. Porém, essa API tinha um teste grátis de 30 dias e ao expirar, a chave da API não iria mais funcionar. Portanto, nesse projeto, todos os carros terão a mesma imagem, mas o código usado nas imagens está comentado para mostrar como a API foi usada."
+		},
+		"image": "/images/car-showcase.png",
+		"link": {
+			"deploy": "https://cars-showcase-rodrigogedam.vercel.app/",
+			"git": "https://github.com/RodrigoGedam/cars-showcase"
+		}
+	},
+	{
 		"title": "Previsão",
 		"description": {
 			"home": "Projeto de previsão de tempo utilizando a API OpenWeather, React, Typescript e Tailwind.",
-			"modal": "Esse projeto foi feito usando as tecnologias React e Typescript, Tailwind para estilização, e a API OpenWeather para podermos obter os dados da previsão.",
-			"warning": "teste"
+			"modal": "Esse projeto foi feito usando as tecnologias React e Typescript, Tailwind para estilização, e a API OpenWeather para podermos obter os dados da previsão. Ao digitar uma cidade, seleciona uma das opções para poder ter a previsão do tempo.",
+			"warning": "Existe um bug no projeto que você não consegue ter espaço ao digitar o nome da cidade."
 		},
 		"image": "/images/weather-forecast.png",
 		"link": {
@@ -16,7 +29,7 @@
 		"title": "Jogo da Velha",
 		"description": {
 			"home": "Projeto de Jogo da Velho utilizando React e JavaScript.",
-			"modal": "aqui vai a descrição do modal",
+			"modal": "Um simples projeto de jogo da velha usando React e javascript com animação ao fim do jogo.",
 			"warning": "x"
 		},
 		"image": "/images/jogo-da-velha.png",
@@ -29,7 +42,7 @@
 		"title": "Cardápio",
 		"description": {
 			"home": "Projeto de um cardápio de restaurante utilizando React, Typescript e Sass",
-			"modal": "aqui vai a descrição do modal",
+			"modal": "Um projeto feito em uma das aulas do site Alura onde ele mostra o cardápio de um restaurante e existem vários filtros para encontrar os pratos. Foi usado React, JS e Sass",
 			"warning": "x"
 		},
 		"image": "/images/cardapio-restaurante.png",

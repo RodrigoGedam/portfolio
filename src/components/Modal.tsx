@@ -61,7 +61,7 @@ export default function Modal({ description, title, linkGit, linkDeploy, warning
 									<div className="mt-2">
 										{warning !== 'x' ? <p className="text-sm text-red-600">*AVISO : {warning}</p> : ''}
 										<p className="text-sm text-gray-500">{description}</p>
-										<p className="text-sm flex justify-center">Link do projeto</p>
+										{/* <p className="text-sm flex justify-center">Link do projeto</p> */}
 									</div>
 									<div className="mt-4 flex justify-evenly">
 										<ProjectButton title="Deploy" git={false} projectLink={linkDeploy} />
