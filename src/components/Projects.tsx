@@ -37,6 +37,7 @@ export default function Projects() {
 											title={project.title}
 											linkGit={project.link.git}
 											linkDeploy={project.link.deploy}
+											reference={project.link.reference}
 										/>
 									</p>
 								</div>

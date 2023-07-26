@@ -8,9 +8,10 @@ interface ModalProps {
 	linkGit: string;
 	linkDeploy: string;
 	warning: string;
+	reference: string;
 }
 
-export default function Modal({ description, title, linkGit, linkDeploy, warning }: ModalProps) {
+export default function Modal({ description, title, linkGit, linkDeploy, warning, reference }: ModalProps) {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const toggleModal = () => {
@@ -61,7 +62,19 @@ export default function Modal({ description, title, linkGit, linkDeploy, warning
 									<div className="mt-2">
 										{warning !== 'x' ? <p className="text-sm text-red-600">*AVISO : {warning}</p> : ''}
 										<p className="text-sm text-gray-500">{description}</p>
-										{/* <p className="text-sm flex justify-center">Link do projeto</p> */}
+										{reference !== 'x' ? (
+											<p className="text-sm flex justify-center">
+												<a
+													href={reference}
+													target="_blank"
+													rel="noopener noreferrer"
+													className="text-black hover:text-blue-400">
+													Link do projeto original
+												</a>
+											</p>
+										) : (
+											''
+										)}
 									</div>
 									<div className="mt-4 flex justify-evenly">
 										<ProjectButton title="Deploy" git={false} projectLink={linkDeploy} />

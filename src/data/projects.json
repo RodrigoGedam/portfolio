@@ -9,7 +9,8 @@
 		"image": "/images/car-showcase.png",
 		"link": {
 			"deploy": "https://cars-showcase-rodrigogedam.vercel.app/",
-			"git": "https://github.com/RodrigoGedam/cars-showcase"
+			"git": "https://github.com/RodrigoGedam/cars-showcase",
+			"reference": "https://www.youtube.com/watch?v=pUNSHPyVryU&ab_channel=JavaScriptMastery"
 		}
 	},
 	{
@@ -17,12 +18,13 @@
 		"description": {
 			"home": "Projeto de previsão de tempo utilizando a API OpenWeather, React, Typescript e Tailwind.",
 			"modal": "Esse projeto foi feito usando as tecnologias React e Typescript, Tailwind para estilização, e a API OpenWeather para podermos obter os dados da previsão. Ao digitar uma cidade, seleciona uma das opções para poder ter a previsão do tempo.",
-			"warning": "Existe um bug no projeto que você não consegue ter espaço ao digitar o nome da cidade."
+			"warning": "x"
 		},
 		"image": "/images/weather-forecast.png",
 		"link": {
 			"deploy": "https://weather-forecast-rodrigogedam.vercel.app/",
-			"git": "https://github.com/RodrigoGedam/weather-forecast"
+			"git": "https://github.com/RodrigoGedam/weather-forecast",
+			"reference": "https://www.youtube.com/watch?v=6MKFKwwhbNo&ab_channel=danascript"
 		}
 	},
 	{
@@ -35,20 +37,22 @@
 		"image": "/images/jogo-da-velha.png",
 		"link": {
 			"deploy": "https://tic-tac-toe-rodrigogedam.vercel.app/",
-			"git": "https://github.com/RodrigoGedam/tic-tac-toe"
+			"git": "https://github.com/RodrigoGedam/tic-tac-toe",
+			"reference": "x"
 		}
 	},
 	{
 		"title": "Cardápio",
 		"description": {
 			"home": "Projeto de um cardápio de restaurante utilizando React, Typescript e Sass",
-			"modal": "Um projeto feito em uma das aulas do site Alura onde ele mostra o cardápio de um restaurante e existem vários filtros para encontrar os pratos. Foi usado React, JS e Sass",
+			"modal": "Um projeto feito em uma das aulas do site Alura onde ele mostra o cardápio de um restaurante e existem vários filtros para encontrar os pratos. Foi usado React, JS e Sass.",
 			"warning": "x"
 		},
 		"image": "/images/cardapio-restaurante.png",
 		"link": {
 			"deploy": "https://restaurante-cardapio-rodrigogedam.vercel.app/",
-			"git": "https://github.com/RodrigoGedam/restaurante-cardapio"
+			"git": "https://github.com/RodrigoGedam/restaurante-cardapio",
+			"reference": "https://www.alura.com.br/curso-online-react-arquivos-estaticos"
 		}
 	}
 ]
