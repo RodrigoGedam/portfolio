@@ -26,7 +26,7 @@ export default function About() {
 							<tbody>
 								<tr>
 									<td className="font-headline font-bold uppercase text-red-700">Idade:</td>
-									<td>26</td>
+									<td>25</td>
 								</tr>
 								<tr>
 									<td className="font-headline font-bold uppercase text-gray-500">Github:</td>
