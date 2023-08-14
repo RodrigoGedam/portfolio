@@ -1,9 +1,23 @@
 [
 	{
+		"title": "Threads Clone",
+		"description": {
+			"home": "Projeto de um clone do aplicativo Threads usando NextJs, Typescript, Tailwind, MongoDB e Clerk.",
+			"modal": "Esse foi meu primeiro projeto fullstack, por isso, ainda não tenho muito conhecimento sobre o backend. Esse projeto é um clone do novo aplicativo do Meta, Threads. Esse projeto foi criado usando NextJs, Typescript e Tailwind para o Front-End, MongoDB para o Banco de Dados e backend e foi usado a plataforma Clerk para autentificação e criação de usuários, além da criação de comunidados do aplicativo. Esse é meu primeiro projeto FullStack, e por ser um desenvolvedor Front-End, ainda tenho várias dúvidas sobre o Back-End, porém, confiante que esse projeto me ajudou muito a desenvolver minhas habilidades no Front-End.",
+			"warning": "Esse projeto não está finalizado."
+		},
+		"image": "/images/threads-clone.png",
+		"link": {
+			"deploy": "https://threads-clone-rodrigogedam.vercel.app/",
+			"git": "https://github.com/RodrigoGedam/threads-clone",
+			"reference": "https://www.youtube.com/watch?v=O5cmLDVTgAs&ab_channel=JavaScriptMastery"
+		}
+	},
+	{
 		"title": "Car Showcase",
 		"description": {
 			"home": "Projeto de uma página para aluguel de carros usando NextJs, Typescript e Tailwind.",
-			"modal": "Esse projeto foi meu primeiro projeto usando NextJs. É uma página de aluguel de carros onde você pode pesquisar alguma marca disponível, pesquisar o nome do carro, filtrar e clicar no carro para mais opções. Foi usado nesse projeto Typescript e Tailwind. A API usada foi da Cars by API-Ninjas no site Rapid API.",
+			"modal": "Esse foi meu primeiro projeto usando NextJs. É uma página de aluguel de carros onde você pode pesquisar alguma marca disponível, pesquisar o nome do carro, filtrar e clicar no carro para mais opções. Foi usado nesse projeto Typescript e Tailwind. A API usada foi da Cars by API-Ninjas no site Rapid API.",
 			"warning": "Esse projeto foi feito com uma API para as imagens dos carros. Porém, essa API tinha um teste grátis de 30 dias e ao expirar, a chave da API não iria mais funcionar. Portanto, nesse projeto, todos os carros terão a mesma imagem, mas o código usado nas imagens está comentado para mostrar como a API foi usada."
 		},
 		"image": "/images/car-showcase.png",
