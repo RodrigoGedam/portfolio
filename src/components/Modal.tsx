@@ -1,6 +1,6 @@
-import { Dialog, Transition } from '@headlessui/react';
-import { Fragment, useState } from 'react';
-import ProjectButton from './ProjectButton';
+import { Dialog, Transition } from "@headlessui/react";
+import { Fragment, useState } from "react";
+import ProjectButton from "./ProjectButton";
 
 interface ModalProps {
 	description: string;
@@ -24,7 +24,7 @@ export default function Modal({ description, title, linkGit, linkDeploy, warning
 				<button
 					type="button"
 					onClick={toggleModal}
-					className="rounded-md bg-black px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+					className="rounded-md bg-black px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 hover:bg-slate-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
 					+
 				</button>
 			</div>
@@ -60,9 +60,9 @@ export default function Modal({ description, title, linkGit, linkDeploy, warning
 										<button onClick={toggleModal}>X</button>
 									</div>
 									<div className="mt-2">
-										{warning !== 'x' ? <p className="text-sm text-red-600">*AVISO : {warning}</p> : ''}
+										{warning !== "x" && <p className="text-sm text-red-600">*AVISO : {warning}</p>}
 										<p className="text-sm text-gray-500">{description}</p>
-										{reference !== 'x' ? (
+										{reference !== "x" && (
 											<p className="text-sm flex justify-center">
 												<a
 													href={reference}
@@ -72,8 +72,6 @@ export default function Modal({ description, title, linkGit, linkDeploy, warning
 													Link do projeto original
 												</a>
 											</p>
-										) : (
-											''
 										)}
 									</div>
 									<div className="mt-4 flex justify-evenly">
