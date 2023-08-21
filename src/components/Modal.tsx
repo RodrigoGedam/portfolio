@@ -20,12 +20,12 @@ export default function Modal({ description, title, linkGit, linkDeploy, warning
 
 	return (
 		<>
-			<div className="inset-0 flex items-center justify-center">
+			<div className="inset-0 py-1 flex items-center justify-center">
 				<button
 					type="button"
 					onClick={toggleModal}
-					className="rounded-md bg-black px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 hover:bg-slate-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-					+
+					className="rounded-md px-1 text-sm font-medium text-white underline hover:bg-opacity-30 hover:bg-slate-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+					Mais informações
 				</button>
 			</div>
 
