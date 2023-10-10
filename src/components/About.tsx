@@ -1,15 +1,16 @@
 export default function About() {
 	return (
-		<section id="about" className="container mx-auto my-4 max-w-5xl p-4">
+		<section
+			id="about"
+			className="container mx-auto my-4 max-w-5xl p-4">
 			<div className="relative p-4 text-center">
 				<h2 className="text-vermelho font-bold relative z-10">
 					<span className="mr-2 font-headline text-3xl">Sobre</span>
 					<span className="font-handwriting text-4xl">Mim</span>
 				</h2>
 				<p className="realtive text-sm text-gray-600">
-					Olá! Sou um desenvolvedor front-end apaixonado por criar experiências digitais cativantes. Minha jornada no mundo do
-					desenvolvimento web começou com uma mente curiosa e o desejo de construir interfaces amigáveis que deixem uma impressão
-					duradoura.
+					Olá! Sou um desenvolvedor front-end apaixonado por criar experiências digitais cativantes. Minha jornada no mundo do desenvolvimento web começou com uma mente curiosa e o desejo de
+					construir interfaces amigáveis que deixem uma impressão duradoura.
 				</p>
 				<div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-red-100/40" />
 			</div>
@@ -26,12 +27,15 @@ export default function About() {
 							<tbody>
 								<tr>
 									<td className="font-headline font-bold uppercase text-red-700">Idade:</td>
-									<td>25</td>
+									<td>26</td>
 								</tr>
 								<tr>
 									<td className="font-headline font-bold uppercase text-gray-500">Github:</td>
 									<td>
-										<a className="hover:underline" href="https://github.com/RodrigoGedam" target="_blank">
+										<a
+											className="hover:underline"
+											href="https://github.com/RodrigoGedam"
+											target="_blank">
 											/RodrigoGedam
 										</a>
 									</td>
@@ -39,7 +43,10 @@ export default function About() {
 								<tr>
 									<td className="font-headline font-bold uppercase text-blue-400">Linkedin:</td>
 									<td>
-										<a className="hover:underline" href="https://www.linkedin.com/in/rodrigogedam/" target="_blank">
+										<a
+											className="hover:underline"
+											href="https://www.linkedin.com/in/rodrigogedam/"
+											target="_blank">
 											/in/rodrigogedam
 										</a>
 									</td>

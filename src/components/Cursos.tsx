@@ -25,7 +25,9 @@ export default function Cursos() {
 	];
 
 	return (
-		<section id="cursos" className="container mx-auto my-12 max-w-4xl p-4">
+		<section
+			id="cursos"
+			className="container mx-auto my-12 max-w-4xl p-4">
 			<div className="p-4 text-center">
 				<p className="text-sm font-semibold uppercase text-red-900">O que eu faço de melhor</p>
 				<h2 className="mb-2 font-bold text-vermelho">
@@ -34,8 +36,10 @@ export default function Cursos() {
 				</h2>
 			</div>
 			<div className="mt-6 flex flex-col gap-2 md:flex-row">
-				{cursos.map((curso, index) => (
-					<div className="basis-1/3 rounded-lg bg-red-700 p-4 text-branco" key={`curso-${index}`}>
+				{cursos.map((curso) => (
+					<div
+						className="basis-1/3 rounded-lg bg-red-700 p-4 text-branco"
+						key={`curso-${curso.title}`}>
 						<div className="mb-2">{curso.icon}</div>
 						<h3 className="text-xl font-bold">{curso.title}</h3>
 						<p className="text-sm">{curso.description}</p>
