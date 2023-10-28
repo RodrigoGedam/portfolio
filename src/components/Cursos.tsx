@@ -27,7 +27,7 @@ export default function Cursos() {
 	return (
 		<section
 			id="cursos"
-			className="container mx-auto my-12 max-w-4xl p-4">
+			className="container mx-auto my-12 max-w-6xl p-4">
 			<div className="p-4 text-center">
 				<p className="text-sm font-semibold uppercase text-red-900">O que eu faço de melhor</p>
 				<h2 className="mb-2 font-bold text-vermelho">

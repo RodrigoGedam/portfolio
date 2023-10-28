@@ -1,57 +1,67 @@
-import { BsGit } from 'react-icons/bs';
-import { FaReact } from 'react-icons/fa';
-import { HiCode } from 'react-icons/hi';
-import { ImHtmlFive } from 'react-icons/im';
-import { SiJavascript, SiTypescript } from 'react-icons/si';
-import { TbBrandPython } from 'react-icons/tb';
+import { BsGit } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
+import { HiCode } from "react-icons/hi";
+import { ImHtmlFive } from "react-icons/im";
+import { SiJavascript, SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { TbBrandPython } from "react-icons/tb";
 
 export default function Skills() {
 	const hardSkills = [
 		{
-			name: 'HTML5/CSS3',
+			name: "HTML5/CSS3",
 			icon: <ImHtmlFive className="h-8 w-8 text-orange-600" />,
-			level: 90,
+			level: 100,
 		},
 		{
-			name: 'JavaScript',
+			name: "JavaScript",
 			icon: <SiJavascript className="h-8 w-8 text-yellow-400" />,
+			level: 100,
+		},
+		{
+			name: "React.js",
+			icon: <FaReact className="h-8 w-8 text-blue-800" />,
 			level: 90,
 		},
 		{
-			name: 'React.js',
-			icon: <FaReact className="h-8 w-8 text-blue-800" />,
+			name: "Git/Github",
+			icon: <BsGit className="h-8 w-8" />,
+			level: 85,
+		},
+		{
+			name: "Typescript",
+			icon: <SiTypescript className="h-8 w-8 text-blue-600" />,
 			level: 80,
 		},
 	];
 
 	const softSkills = [
 		{
-			name: 'Git/Github',
-			icon: <BsGit className="h-8 w-8" />,
-			level: 70,
+			name: "Tailwind",
+			icon: <SiTailwindcss className="h-8 w-8" />,
+			level: 75,
 		},
 		{
-			name: 'Typescript',
-			icon: <SiTypescript className="h-8 w-8 text-blue-600" />,
+			name: "NextJS",
+			icon: <SiNextdotjs className="h-8 w-8" />,
 			level: 50,
 		},
 		{
-			name: 'Python',
+			name: "Python",
 			icon: <TbBrandPython className="h-8 w-8" />,
 			level: 15,
 		},
 	];
 
 	return (
-		<section id="skills" className="rounded-br-[80px] bg-gray-300 md:rounded-br-[180px]">
-			<div className="container mx-auto max-w-4xl p-4 py-12">
+		<section
+			id="skills"
+			className="rounded-br-[80px] bg-gray-300 md:rounded-br-[180px]">
+			<div className="container mx-auto p-4 py-12">
 				<div className="relative mb-4 p-4 text-center">
 					<h2 className="relative z-40 mb-2 font-bold">
 						<span className="mr-2 font-headline text-3xl text-gray-800">Skills</span>
 					</h2>
-					<p className="relative text-lg text-gray-700">
-						Front-End Developer | React.js | Typescript | JavaScript | Git
-					</p>
+					<p className="relative text-lg text-gray-700">Front-End Developer | React.js | Typescript | JavaScript | Git</p>
 					<div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-red-400/10" />
 				</div>
 				<div className="flex flex-col gap-8 md:flex-row">
@@ -65,13 +75,9 @@ export default function Skills() {
 								<div
 									key={`skill-${index}`}
 									className="flex flex-row items-center gap-2 md:flex-col md:items-start">
-									<div className="flex h-14 w-14 items-center justify-center rounded-lg bg-branco p-2">
-										{skill.icon}
-									</div>
+									<div className="flex h-14 w-14 items-center justify-center rounded-lg bg-branco p-2">{skill.icon}</div>
 									<div className="w-full flex-grow">
-										<h4 className="font-headline text-gray-900">
-											{skill.name}
-										</h4>
+										<h4 className="font-headline text-gray-900">{skill.name}</h4>
 										<div className="h-2.5 w-full rounded-full bg-branco">
 											<div
 												className="h-2.5 rounded-full bg-blue-600"
@@ -93,13 +99,9 @@ export default function Skills() {
 								<div
 									key={`skill-${index}`}
 									className="flex flex-row items-center gap-2 md:flex-col md:items-start">
-									<div className="flex h-14 w-14 items-center justify-center rounded-lg bg-branco p-2">
-										{skill.icon}
-									</div>
+									<div className="flex h-14 w-14 items-center justify-center rounded-lg bg-branco p-2">{skill.icon}</div>
 									<div className="w-full flex-grow">
-										<h4 className="font-headline text-gray-900">
-											{skill.name}
-										</h4>
+										<h4 className="font-headline text-gray-900">{skill.name}</h4>
 										<div className="h-2.5 w-full rounded-full bg-branco">
 											<div
 												className="h-2.5 rounded-full bg-blue-600"
@@ -110,18 +112,6 @@ export default function Skills() {
 							))}
 						</div>
 					</div>
-				</div>
-				<div className="relative mt-4 p-4 text-center">
-					<h4 className="relative z-40 mb-2 font-bold">
-						<span className="mr-2 font-headline text-2xl text-gray-800">
-							Aprendendo e
-						</span>
-						<span className="font-handwriting text-3xl text-gray-800">Aprimorando</span>
-					</h4>
-					<p className="relative text-xl text-gray-800">
-						Atualmente estou aprimorando minhas habilidades em React.Js, Typescript e
-						começando a aprender a desenvolver em Next.JS
-					</p>
 				</div>
 			</div>
 		</section>

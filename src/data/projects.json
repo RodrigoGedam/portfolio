@@ -1,19 +1,5 @@
 [
 	{
-		"title": "Web Scrapping",
-		"description": {
-			"home": "Projeto de uma plataforma de web scrapping chamado Price wise, onde o site verifica o valor de um produto do site Amazon.",
-			"modal": "O projeto foi feito com NextJS, Tailwind e MongoDB. O objetivo do site é um usuário colocar a url de um produto da Amazon e ele fará um comparação dos preços recentes do produto.",
-			"warning": "Esse projeto não está finalizado. É preciso implementar algumas funções para os items serem constantemente avaliados."
-		},
-		"image": "/images/web-scrapping.png",
-		"link": {
-			"deploy": "https://web-scrapping-rodrigogedam.vercel.app/",
-			"git": "https://github.com/RodrigoGedam/web-scrapping",
-			"reference": "https://www.youtube.com/watch?v=lh9XVGv6BHs&ab_channel=JavaScriptMastery"
-		}
-	},
-	{
 		"title": "Threads Clone",
 		"description": {
 			"home": "Projeto de um clone do aplicativo Threads usando NextJs, Typescript, Tailwind, MongoDB e Clerk.",
@@ -39,6 +25,34 @@
 			"deploy": "https://cars-showcase-rodrigogedam.vercel.app/",
 			"git": "https://github.com/RodrigoGedam/cars-showcase",
 			"reference": "https://www.youtube.com/watch?v=pUNSHPyVryU&ab_channel=JavaScriptMastery"
+		}
+	},
+	{
+		"title": "Travel App",
+		"description": {
+			"home": "Projeto de um aplicativo de viagem com foco no UX/Ui. Feito com NextJS e Tailwind.",
+			"modal": "O projeto foi feito com NextJS e Tailwind. O objetivo do projeto foi treinar e melhorar a UX/UI usando Tailwind com foco em mobile first.",
+			"warning": "x"
+		},
+		"image": "/images/travel-app.png",
+		"link": {
+			"deploy": "https://travel-app-rodrigogedam.vercel.app/",
+			"git": "https://github.com/RodrigoGedam/travel-app",
+			"reference": "https://www.youtube.com/watch?v=cuzw4vL1z5E&ab_channel=JavaScriptMastery"
+		}
+	},
+	{
+		"title": "Web Scrapping",
+		"description": {
+			"home": "Projeto de uma plataforma de web scrapping chamado Price wise, onde o site verifica o valor de um produto do site Amazon.",
+			"modal": "O projeto foi feito com NextJS, Tailwind e MongoDB. O objetivo do site é um usuário colocar a url de um produto da Amazon e ele fará um comparação dos preços recentes do produto.",
+			"warning": "Esse projeto não está finalizado. É preciso implementar algumas funções para os items serem constantemente avaliados."
+		},
+		"image": "/images/web-scrapping.png",
+		"link": {
+			"deploy": "https://web-scrapping-rodrigogedam.vercel.app/",
+			"git": "https://github.com/RodrigoGedam/web-scrapping",
+			"reference": "https://www.youtube.com/watch?v=lh9XVGv6BHs&ab_channel=JavaScriptMastery"
 		}
 	},
 	{

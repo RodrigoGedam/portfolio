@@ -8,7 +8,7 @@ export default function About() {
 					<span className="mr-2 font-headline text-3xl">Sobre</span>
 					<span className="font-handwriting text-4xl">Mim</span>
 				</h2>
-				<p className="realtive text-sm text-gray-600">
+				<p className="realtive md:text-lg text-sm text-gray-600">
 					Olá! Sou um desenvolvedor front-end apaixonado por criar experiências digitais cativantes. Minha jornada no mundo do desenvolvimento web começou com uma mente curiosa e o desejo de
 					construir interfaces amigáveis que deixem uma impressão duradoura.
 				</p>
