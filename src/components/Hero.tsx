@@ -1,4 +1,4 @@
-import { HiDownload } from 'react-icons/hi';
+import { HiDownload } from "react-icons/hi";
 
 export default function Hero() {
 	return (
@@ -18,11 +18,11 @@ export default function Hero() {
 					</h1>
 					<h2 className="font-semibold flex items-center gap-2 justify-center md:justify-start">
 						<div className="h-1 w-12 rounded-full bg-red-700" />
-						Desenvolvedor React.Js Front-End
+						Desenvolvedor React.Js Front-End & Desenvolvedor de Jogos
 					</h2>
 					<p className="text-gray-400 my-6 text-center md:text-left">
-						Desenvolvedor Front-End React apaixonado pro criar experiências interativas
-						e responsivas.
+						Um aspirante desenvolvedor Front-End e desenvolvedor de jogos apaixonado por
+						criar experiências interativas.
 					</p>
 
 					<div className="flex items-center justify-center md:justify-start gap-2">

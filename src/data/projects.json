@@ -42,20 +42,6 @@
 		}
 	},
 	{
-		"title": "Web Scrapping",
-		"description": {
-			"home": "Projeto de uma plataforma de web scrapping chamado Price wise, onde o site verifica o valor de um produto do site Amazon.",
-			"modal": "O projeto foi feito com NextJS, Tailwind e MongoDB. O objetivo do site é um usuário colocar a url de um produto da Amazon e ele fará um comparação dos preços recentes do produto.",
-			"warning": "Esse projeto não está finalizado. É preciso implementar algumas funções para os items serem constantemente avaliados."
-		},
-		"image": "/images/web-scrapping.png",
-		"link": {
-			"deploy": "https://web-scrapping-rodrigogedam.vercel.app/",
-			"git": "https://github.com/RodrigoGedam/web-scrapping",
-			"reference": "https://www.youtube.com/watch?v=lh9XVGv6BHs&ab_channel=JavaScriptMastery"
-		}
-	},
-	{
 		"title": "Previsão",
 		"description": {
 			"home": "Projeto de previsão de tempo utilizando a API OpenWeather, React, Typescript e Tailwind.",
@@ -67,6 +53,20 @@
 			"deploy": "https://weather-forecast-rodrigogedam.vercel.app/",
 			"git": "https://github.com/RodrigoGedam/weather-forecast",
 			"reference": "https://www.youtube.com/watch?v=6MKFKwwhbNo&ab_channel=danascript"
+		}
+	},
+	{
+		"title": "Jogo Dino do Chrome",
+		"description": {
+			"home": "Projeto do jogo do dinossauro do Google Chrome.",
+			"modal": "O projeto foi feito com HTML, CSS e JavaScript",
+			"warning": "Esse projeto não está finalizado. É preciso implementar algumas funções e instruções para o jogador."
+		},
+		"image": "/images/dino.png",
+		"link": {
+			"deploy": "https://game-dino-chrome-rodrigogedam.vercel.app/",
+			"git": "https://github.com/RodrigoGedam/game-dino-chrome",
+			"reference": "https://www.youtube.com/watch?v=47eXVRJKdkU&ab_channel=WebDevSimplified"
 		}
 	},
 	{
@@ -84,17 +84,17 @@
 		}
 	},
 	{
-		"title": "Cardápio",
+		"title": "Jogo da Cobrinha",
 		"description": {
-			"home": "Projeto de um cardápio de restaurante utilizando React, Typescript e Sass",
-			"modal": "Um projeto feito em uma das aulas do site Alura onde ele mostra o cardápio de um restaurante e existem vários filtros para encontrar os pratos. Foi usado React, JS e Sass.",
-			"warning": "x"
+			"home": "Projeto do jogo Snake.",
+			"modal": "Um projeto feito em HTML, CSS e JavaScript.",
+			"warning": "Esse projeto não está finalizado. É preciso implementar algumas funções e instruções para o jogador."
 		},
-		"image": "/images/cardapio-restaurante.png",
+		"image": "/images/snake.png",
 		"link": {
-			"deploy": "https://restaurante-cardapio-rodrigogedam.vercel.app/",
-			"git": "https://github.com/RodrigoGedam/restaurante-cardapio",
-			"reference": "https://www.alura.com.br/curso-online-react-arquivos-estaticos"
+			"deploy": "https://game-snake-rodrigogedam.vercel.app/",
+			"git": "https://github.com/RodrigoGedam/game-snake",
+			"reference": "https://www.youtube.com/watch?v=LyWSsZktVOg&ab_channel=ManualdoDev"
 		}
 	}
 ]

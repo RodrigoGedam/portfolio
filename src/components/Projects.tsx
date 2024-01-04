@@ -10,10 +10,15 @@ export default function Projects() {
 			<div className="container mx-auto w-full p-4 py-12">
 				<div className="relative p-4 text-center">
 					<h2 className="relative z-40 mb-2 text-white">
-						<span className="mr-2 font-headline text-3xl font-semibold">Projetos &</span>
+						<span className="mr-2 font-headline text-3xl font-semibold">
+							Projetos &
+						</span>
 						<span className="font-handwriting text-4xl">Portfólio</span>
 					</h2>
-					<p className="relative text-sm text-gray-400">Alguns dos projetos pessoais e que já realizei ao longo da minha trajetória como programador front-end.</p>
+					<p className="relative text-sm text-gray-400">
+						Alguns dos projetos pessoais e que já realizei ao longo da minha trajetória
+						como programador.
+					</p>
 					<div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-red-100/10" />
 				</div>
 				<div className="mt-6w-full md:grid lg:grid-cols-3 md:grid-cols-2 gap-10">
@@ -32,7 +37,9 @@ export default function Projects() {
 									/>
 								</div>
 								<div className="mt-5 flex justify-evenly gap-x-4 items-center">
-									<h3 className="text-white font-bold text-lg">{project.title}</h3>
+									<h3 className="text-white font-bold text-lg">
+										{project.title}
+									</h3>
 									<ProjectButton
 										git={false}
 										title="Deploy"
