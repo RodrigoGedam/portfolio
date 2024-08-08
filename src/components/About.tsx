@@ -9,9 +9,8 @@ export default function About() {
 					<span className="font-handwriting text-4xl">Mim</span>
 				</h2>
 				<p className="realtive md:text-lg text-sm text-gray-600">
-					Olá! Sou um desenvolvedor front-end & desenvolvedor de jogos apaixonado por
-					criar experiências digitais cativantes. Minha jornada no mundo do
-					desenvolvimento web começou com uma mente curiosa e o desejo de construir
+					Olá! Sou um desenvolvedor front-end apaixonado por criar experiências digitais cativantes. Minha
+					jornada no mundo do desenvolvimento web começou com uma mente curiosa e o desejo de construir
 					interfaces amigáveis que deixem uma impressão duradoura.
 				</p>
 				<div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-red-100/40" />
@@ -22,23 +21,13 @@ export default function About() {
 						<p className="font-handwriting text-lg font-bold">Olá,</p>
 						<p>
 							<span className="mr-1">Meu nome é</span>
-							<span className="font-headline font-bold uppercase text-vermelho">
-								Rodrigo
-							</span>
+							<span className="font-headline font-bold uppercase text-vermelho">Rodrigo</span>
 							<span className="mr-1"> e essas são minhas redes.</span>
 						</p>
 						<table className="mt-2 w-full text-sm">
 							<tbody>
 								<tr>
-									<td className="font-headline font-bold uppercase text-red-700">
-										Idade:
-									</td>
-									<td>26</td>
-								</tr>
-								<tr>
-									<td className="font-headline font-bold uppercase text-gray-500">
-										Github:
-									</td>
+									<td className="font-headline font-bold uppercase text-gray-500">Github:</td>
 									<td>
 										<a
 											className="hover:underline"
@@ -49,9 +38,7 @@ export default function About() {
 									</td>
 								</tr>
 								<tr>
-									<td className="font-headline font-bold uppercase text-blue-400">
-										Linkedin:
-									</td>
+									<td className="font-headline font-bold uppercase text-blue-400">Linkedin:</td>
 									<td>
 										<a
 											className="hover:underline"
@@ -62,9 +49,7 @@ export default function About() {
 									</td>
 								</tr>
 								<tr>
-									<td className="font-headline font-bold uppercase text-black">
-										Disponível
-									</td>
+									<td className="font-headline font-bold uppercase text-black">Disponível</td>
 									<td>
 										<span className="relative flex h-3 w-3">
 											<span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>

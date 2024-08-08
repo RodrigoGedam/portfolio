@@ -8,26 +8,21 @@ export default function Hero() {
 			<div className="container mx-auto mx-w-4xl p-2 py-12 flex flex-col md:flex-row">
 				<div className="basis-1/2">
 					<h1 className="mb-6 text-center md:text-left">
-						<span className="font-handwriting block text-3xl text-center md:text-left">
-							Olá, me chamo
-						</span>
+						<span className="font-handwriting block text-3xl text-center md:text-left">Olá, me chamo</span>
 						<span className="font-headline text-5xl font-semibold">Rodrigo </span>
-						<span className="font-headline text-5xl font-light text-vermelho">
-							Gedam
-						</span>
+						<span className="font-headline text-5xl font-light text-vermelho">Gedam</span>
 					</h1>
 					<h2 className="font-semibold flex items-center gap-2 justify-center md:justify-start">
 						<div className="h-1 w-12 rounded-full bg-red-700" />
-						Desenvolvedor React.Js Front-End & Desenvolvedor de Jogos
+						Desenvolvedor React.Js Front-End
 					</h2>
 					<p className="text-gray-400 my-6 text-center md:text-left">
-						Um aspirante desenvolvedor Front-End e desenvolvedor de jogos apaixonado por
-						criar experiências interativas.
+						Um aspirante desenvolvedor Front-End apaixonado por criar experiências interativas.
 					</p>
 
 					<div className="flex items-center justify-center md:justify-start gap-2">
 						<a
-							href="https://docs.google.com/document/d/1If48B5Yd70_3liZgHpLGPJyaFFAzzy6HQ-VUv47O9Zs/edit?usp=sharing"
+							href="https://drive.google.com/file/d/1fEhPUd5SBPKklcI_KXV-1_8-5J_oEYnX/view?usp=sharing"
 							target="_blank"
 							className="button text-gray-600 hover:text-gray-900 flex items-center gap-2">
 							<HiDownload />

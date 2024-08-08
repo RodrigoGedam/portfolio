@@ -1,14 +1,8 @@
 import { BsGit } from "react-icons/bs";
-import { FaReact, FaUnity } from "react-icons/fa";
+import { FaAws, FaNodeJs, FaReact } from "react-icons/fa";
 import { HiCode } from "react-icons/hi";
 import { ImHtmlFive } from "react-icons/im";
-import {
-	SiJavascript,
-	SiNextdotjs,
-	SiTailwindcss,
-	SiTypescript,
-	SiUnrealengine,
-} from "react-icons/si";
+import { SiJavascript, SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { TbBrandPython } from "react-icons/tb";
 
 export default function Skills() {
@@ -52,18 +46,18 @@ export default function Skills() {
 			level: 50,
 		},
 		{
-			name: "Unity",
-			icon: <FaUnity className="h-8 w-8" />,
-			level: 35,
-		},
-		{
-			name: "Unreal Engine",
-			icon: <SiUnrealengine className="h-8 w-8" />,
+			name: "Python",
+			icon: <TbBrandPython className="h-8 w-8" />,
 			level: 15,
 		},
 		{
-			name: "Python",
-			icon: <TbBrandPython className="h-8 w-8" />,
+			name: "Node Js",
+			icon: <FaNodeJs className="h-8 w-8" />,
+			level: 15,
+		},
+		{
+			name: "AWS",
+			icon: <FaAws className="h-8 w-8" />,
 			level: 15,
 		},
 	];
@@ -78,8 +72,7 @@ export default function Skills() {
 						<span className="mr-2 font-headline text-3xl text-gray-800">Skills</span>
 					</h2>
 					<p className="relative text-lg text-gray-700">
-						Front-End Developer | Games Developer | React.js | Typescript | JavaScript |
-						Git
+						Front-End Developer | Games Developer | React.js | Typescript | Git
 					</p>
 					<div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-red-400/10" />
 				</div>
@@ -98,9 +91,7 @@ export default function Skills() {
 										{skill.icon}
 									</div>
 									<div className="w-full flex-grow">
-										<h4 className="font-headline text-gray-900">
-											{skill.name}
-										</h4>
+										<h4 className="font-headline text-gray-900">{skill.name}</h4>
 										<div className="h-2.5 w-full rounded-full bg-branco">
 											<div
 												className="h-2.5 rounded-full bg-blue-600"
@@ -126,9 +117,7 @@ export default function Skills() {
 										{skill.icon}
 									</div>
 									<div className="w-full flex-grow">
-										<h4 className="font-headline text-gray-900">
-											{skill.name}
-										</h4>
+										<h4 className="font-headline text-gray-900">{skill.name}</h4>
 										<div className="h-2.5 w-full rounded-full bg-branco">
 											<div
 												className="h-2.5 rounded-full bg-blue-600"
